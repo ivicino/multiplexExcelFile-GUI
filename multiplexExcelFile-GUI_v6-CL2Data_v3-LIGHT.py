@@ -433,14 +433,14 @@ def RunProgram():
 
         '''Moving data to a table format with labels'''
 
-        title01 = pd.DataFrame({"1:1000 2nd T1 plate, sciColor T2"})
-        title02 = pd.DataFrame({"1:5000 2nd T1 plate, sciColor T2"})
-        title03 = pd.DataFrame({"1:1000 2nd T2 plate, sciColor T2"})
-        title04 = pd.DataFrame({"1:5000 2nd T2 plate, sciColor T2"})
-        title05 = pd.DataFrame({"1:1000 2nd T1 plate, sciColor T3"})
-        title06 = pd.DataFrame({"1:5000 2nd T1 plate, sciColor T3"})
-        title07 = pd.DataFrame({"1:1000 2nd T2 plate, sciColor T3"})
-        title08 = pd.DataFrame({"1:5000 2nd T2 plate, sciColor T3"})
+        title01 = pd.DataFrame({"1:1000 2nd T1 plate, COLOR"})
+        title02 = pd.DataFrame({"1:5000 2nd T1 plate, COLOR"})
+        title03 = pd.DataFrame({"1:1000 2nd T2 plate, COLOR"})
+        title04 = pd.DataFrame({"1:5000 2nd T2 plate, COLOR"})
+        title05 = pd.DataFrame({"1:1000 2nd T1 plate, COLOR2"})
+        title06 = pd.DataFrame({"1:5000 2nd T1 plate, COLOR2"})
+        title07 = pd.DataFrame({"1:1000 2nd T2 plate, COLOR2"})
+        title08 = pd.DataFrame({"1:5000 2nd T2 plate, COLOR2"})
 
         title1 = pd.DataFrame({"0.2 ug_ul"})
         title2 = pd.DataFrame({"0.1 ug_ul"})
